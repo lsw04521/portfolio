@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,14 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/particle.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="js/scroll-show.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 </head>
+
 <body>
     <header>
         <div id="logo"><a href="#">Web Portfolio</a></div>
@@ -25,74 +33,129 @@
         </nav>
     </header>
     <div id="warp">
+        <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+        <div id="particle-container"><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+        </div>
         <div class="intro">
-        <h1>반갑습니다!<br>저는 웹 퍼블리셔 <b style="background-color: skyblue;">이성우</b> 입니다 :)</h1>
+            <h1>반갑습니다!<img src="img/SMILE.PNG" style="width: 150px; height: 150px;" alt="">
+                <br>
+                저는 이성우 입니다 :)
+            </h1>
+        </div>
+        <div id="contact">
+            <div class="c-left-introducing">
+                <div class="profile-box"></div>
+                <br>
+                <h1>PROFILE</h1>
+                <br>
+                <h3>이성우</h3>
+                <h3>lsw04521@naver.com</h3>
+            </div>
+            <div class="c-right-introducing">
+                <h1>EDUCATION</h1>
+                <br>
+                <h3><b style="color: #999;">2021.09.27 ~ 2022.02.22</b> 라인아트컴퓨터학원 UIUX반응형 과정 수료</h3>
+                <br>
+                <br>
+                <h1>LICENSE</h1>
+                <br>
+                <h3>웹디자인기능사 (진행중)</h3>
+                <br>
+                <br>
+                <h1>SKILLS</h1>
+                <br>
+                <h3>HTML5<br>
+                CSS3<br>
+                JavaScript<br>
+                J-Query<br>
+                ajax</h3>
+            </div>
+        </div>
+        <div class="intro">
+            <h1>CODING</h1>
+        </div>
+        <div class="port-one-area">
+            <figure><img src="img/imax_tablet_mac.png" alt="img" style="width: 100%;"></figure>
+            <div class="text-area">
+                <ul>
+                    <li>#HTML5</li>
+                    <li>#CSS3</li>
+                    <li>#JavaScript</li>
+                    <li>#J-Query</li>
+                </ul>
+                <h1 style="font-size: 6rem;">IMAX <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
+                <br>
+                <h2>아이맥스 웹 페이지입니다. 기존에 있던 페이지처럼 보이도록 구현하였으며,<br>
+                    <b style="background-color: skyblue;">반응형 웹페이지</b>로 나타내어 모든 디스플레이에서 기능이 원활히 작동할 수 있도록 기능화
+                    <br>하였습니다. 또한 돋보일 수 있는 세가지의 시그니처 컬러를 사용하여 더욱 시각화하였습니다.
+                </h2>
+                <br>
+                <br>
+                <a href="https://lsw04521.github.io/imax/">SITE VIEW →</a>
+            </div>
+        </div>
+        <div class="port-two-area">
+            <div class="text-area-2">
+                <ul>
+                    <li>#HTML5</li>
+                    <li>#CSS3</li>
+                    <li>#JavaScript</li>
+                    <li>#J-Query</li>
+                </ul>
+                <h1 style="font-size: 6rem;">SIGNIEL SEOUL <b style="color: #999; font-size: 3rem;">Hotel</b></h1>
+                <br>
+                <h2>시그니엘 호텔 웹 페이지입니다. 다양한 주제에서 떠올라 구현하게 되었습니다.
+                    <br>
+                    <b style="background-color: skyblue;">반응형 웹페이지</b>이므로 디스플레이 크기에 따라 보는 데에 불편함이 없도록 설계하였습니다.
+                    <br>조화로운 색깔이 어울릴 수 있도록 노력하여 구현하였습니다.
+                </h2>
+                <br>
+                <br>
+                <a href="https://lsw04521.github.io/signiel/">SITE VIEW →</a>
+            </div>
+            <figure><a href="https://lsw04521.github.io/signiel/"><img src="img/signiel_tablet_mac.png" alt="img"
+                        style="width: 100%;"></a></figure>
+        </div>
+        <div class="port-one-area">
+            <figure><img src="img/interior_tablet_mac.png" alt="img" style="width: 100%;"></figure>
+            <div class="text-area">
+                <ul>
+                    <li>#HTML5</li>
+                    <li>#CSS3</li>
+                    <li>#JavaScript</li>
+                    <li>#J-Query</li>
+                </ul>
+                <h1 style="font-size: 6rem;">BUCKETPLACE <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
+                <br>
+                <h2>인테리어 웹 페이지입니다. <b style="background-color: skyblue;">반응형 웹페이지</b>로 구현하였습니다.<br>첫 반응형 웹페이지이지만 생각만큼 잘
+                    나온 페이지 입니다.<br>많은 <b style="background-color: skyblue;">스크립트</b>가 적용된 페이지 이므로 잘 짜여진 화면을 느낄 수 있습니다.
+                </h2>
+                <br>
+                <br>
+                <a href="https://lsw04521.github.io/interior/">SITE VIEW →</a>
+            </div>
+        </div>
+        <div class="port-two-area">
+            <div class="text-area-2">
+                <ul>
+                    <li>#HTML5</li>
+                    <li>#CSS3</li>
+                </ul>
+                <h1 style="font-size: 6rem;">SAMYANG <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
+                <br>
+                <h2>수료 과정중 처음으로 만든 <b style="background-color: skyblue;">쇼핑몰</b> 웹 페이지입니다.
+                    <br>
+                    <b style="background-color: skyblue;">레이아웃</b>에 적절히 맞을 수 있도록 노력하여 구현하였습니다.
+                    <br>
+                    보는것에 어려움이 없도록 적절한 이미지를 사용하여 간단하게 구현하였습니다.
+                </h2>
+                <br>
+                <br>
+                <a href="https://lsw04521.github.io/samyang/">SITE VIEW →</a>
+            </div>
+            <figure><img src="img/samyang_mac.png" alt="img" style="width: 100%;"></figure>
         </div>
     </div>
-
-    <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
-
-<div id="particle-container">
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-    <div class="particle"></div>
-  </div>
 </body>
+
 </html>

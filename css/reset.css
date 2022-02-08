@@ -19,3 +19,5 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 ul,ol,li {text-decoration: none; list-style: none; margin: 0; padding: 0;}
 a {text-decoration: none; color: #000;}
+
+h1,h2,h3,h4,h5,h6 {font-family: "나눔스퀘어";}

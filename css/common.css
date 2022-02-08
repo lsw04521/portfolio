@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-header {width: 1300px; margin: 0 auto; height: 104px; padding-top: 25px;}
+header {width: 100%; padding: 0px 10%; margin: 0 auto; padding-top: 25px; position: fixed; left: 0; right: 0; z-index: 10;}
 
 #logo {font-family: "GangwonEdu_OTFBoldA"; font-size: 40px; float: left;}
 
@@ -8,6 +8,3 @@ nav ul {float: right;}
 nav ul li {float: left; margin: 10px;}
 nav ul li a {text-align: center; font-family: "GangwonEdu_OTFBoldA"; font-size: 25px;}
 nav ul li a:hover {color: skyblue;}
-
-#warp {width: 1300px; height: auto; margin: 0 auto; padding-top: 200px;}
-.intro {text-align: center; line-height: 2; font-weight: normal; font-family: "나눔스퀘어"; font-size: 30px;}
