@@ -14,10 +14,13 @@
     <link rel="stylesheet" href="css/scrollbar.css">
     <link rel="stylesheet" href="css/hover-min.css">
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
     <script src="js/scroll-show.js"></script>
+    <script src="js/onepage.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -25,205 +28,239 @@
 <body>
     <header>
         <div id="logo"><a href="#">Web Portfolio</a></div>
-        <nav>
+        <div id="menu">
             <ul>
                 <li><a href="#" class="btn btn-primary hvr-float">Home</a></li>
                 <li><a href="#" class="btn btn-primary hvr-float">About</a></li>
-                <li><a href="#" class="btn btn-primary hvr-float">Service</a></li>
                 <li><a href="#" class="btn btn-primary hvr-float">Portfolio</a></li>
                 <li><a href="#" class="btn btn-primary hvr-float">Contact</a></li>
             </ul>
-        </nav>
+        </div>
     </header>
     <div id="warp">
-        <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
-        <div id="particle-container"><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
-        </div>
-        <div class="intro">
-            <h1>반갑습니다!<img src="img/SMILE.PNG" style="width: 125px; height: 125px;" alt="">
-                <br>
-                저는 이성우 입니다 :)
-            </h1>
-        </div>
-        <div class="intro" style="margin-top: 500px;">
-            <h1>About Me</h1>
-        </div>
-        <div id="contact">
-            <div class="c-left-introducing">
-                <div class="profile-box"></div>
-                <br>
-                <h1>PROFILE</h1>
-                <br>
-                <h3>이성우
+        <div class="section">
+        <section id="home">
+            <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+            <div id="particle-container"><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+            </div>
+            <div class="intro" data-aos="fade-up">
+                <h1>반갑습니다!<img src="img/deco-hands.png" style="margin-left: 20px;" alt="">
                     <br>
-                    경기도 안산시
-                    <br>
-                    lsw04521@naver.com</h3>
-                <br>
-                <h3>새로움을 추구하는 웹 퍼블리셔를 꿈꾸고 있습니다.<br>
-                    정확하고 세심하게 작업물을 제작할 수 있도록
-                    더욱 발전하기 위해 나날히 힘쓰며 노력하겠습니다.
-                </h3>
+                    저는 이성우 입니다 :)
+                </h1>
             </div>
-            <div class="c-right-introducing">
-                <h1>EDUCATION</h1>
-                <br>
-                <h3><b style="color: #999;">2021.09.27 ~ 2022.02.22</b> 라인컴퓨터아트학원 반응형UIUX 과정 수료</h3>
-                <br>
-                <br>
-                <h1>LICENSE</h1>
-                <br>
-                <h3>웹디자인기능사 (진행중)</h3>
-                <br>
-                <br>
-                <h1>SKILLS</h1>
-                <br>
-                <h3>HTML5<br>
-                    CSS3<br>
-                    JavaScript<br>
-                    J-Query<br>
-                    ajax</h3>
-                <img src="img/Ps.png" alt="" class="btn btn-primary hvr-float-shadow">
-                <img src="img/Ai.png" alt="" class="btn btn-primary hvr-float-shadow">
+        </section>
+            <section id="about">
+            <div id="intro" style="margin-top: 500px;" data-aos="fade-up">
+                <h1>ABOUT ME</h1>
             </div>
-        </div>
-        <div class="intro">
-            <h1>PORTFOLIO</h1>
-        </div>
-        <div class="port-two-area">
-            <div class="text-area-2">
-                <ul>
-                    <li>#HTML5</li>
-                    <li>#CSS3</li>
-                    <li>#ajax</li>
-                </ul>
-                <h1 style="font-size: 6rem;">YOUNG POONG <b style="color: #999; font-size: 3rem;">Book Store</b></h1>
-                <br>
-                <h2><b style="background-color: skyblue;">ajax</b>를 이용하여 구현한 서점 웹 페이지입니다. 기존 페이지의 레이아웃과<br>새로 배운 기능을
-                    적용하여 간략하게 필요한 정보를 가져와 서점 페이지에 대한 정보를 한눈에 볼 수 있도록 설계하였습니다.
-                </h2>
-                <br>
-                <br>
-                <a href="https://lsw04521.github.io/ypbooks/" class="btn btn-primary hvr-forward">SITE
-                    VIEW →</a>
-            </div>
-            <figure><a href="https://lsw04521.github.io/ypbooks/"><img src="img/ypbooks_mac.png" alt="img"
-                        style="width: 100%; padding-top: 150px;"></a></figure>
-        </div>
-        <div class="port-one-area">
-            <figure><a href="https://lsw04521.github.io/imax/"><img src="img/imax_tablet_mac_iphone.png" alt="img"
-                        style="width: 100%;" class="hvr-bob"></a></figure>
-            <div class="text-area">
-                <ul>
-                    <li>#HTML5</li>
-                    <li>#CSS3</li>
-                    <li>#JavaScript</li>
-                    <li>#J-Query</li>
-                </ul>
-                <h1 style="font-size: 6rem;">IMAX <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
-                <br>
-                <h2>아이맥스 웹 페이지입니다. 기존에 있던 페이지처럼 보이도록 구현하였으며,<br>
-                    <b style="background-color: skyblue;">반응형 웹페이지</b>로 나타내어 모든 디스플레이에서 기능이 원활히 작동할 수 있도록 기능화
-                    <br>하였습니다. 또한 돋보일 수 있는 세가지의 시그니처 컬러를 사용하여 더욱 시각화하였습니다.
-                </h2>
-                <br>
-                <br>
-                <a href="https://lsw04521.github.io/imax/" class="hvr-forward hvr-icon-forward">SITE VIEW →</a>
-            </div>
-        </div>
-        <div class="port-two-area">
-            <div class="text-area-2">
-                <ul>
-                    <li>#HTML5</li>
-                    <li>#CSS3</li>
-                    <li>#JavaScript</li>
-                    <li>#J-Query</li>
-                </ul>
-                <h1 style="font-size: 6rem;">SIGNIEL SEOUL <b style="color: #999; font-size: 3rem;">Hotel</b></h1>
-                <br>
-                <h2>시그니엘 호텔 웹 페이지입니다. 다양한 주제에서 떠올라 구현하게 되었습니다.
-                    <br>
-                    <b style="background-color: skyblue;">반응형 웹페이지</b>이므로 디스플레이 크기에 따라 보는 데에 불편함이 없도록 설계하였습니다.
-                    <br>이미지에 맞는 컬러를 사용하여 어울릴 수 있도록 노력하여 구현하였습니다.
-                </h2>
-                <br>
-                <br>
-                <a href="https://lsw04521.github.io/signiel/" class="btn btn-primary hvr-forward">SITE
-                    VIEW →</a>
-            </div>
-            <figure><a href="https://lsw04521.github.io/signiel/"><img src="img/signiel_tablet_mac.png" alt="img"
-                        style="width: 100%;"></a></figure>
-        </div>
-        <div class="port-one-area">
-            <figure><img src="img/interior_tablet_mac.png" alt="img" style="width: 100%;"></figure>
-            <div class="text-area">
-                <ul>
-                    <li>#HTML5</li>
-                    <li>#CSS3</li>
-                    <li>#JavaScript</li>
-                    <li>#J-Query</li>
-                </ul>
-                <h1 style="font-size: 6rem;">BUCKETPLACE <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
-                <br>
-                <h2>인테리어 웹 페이지입니다. <b style="background-color: skyblue;">반응형 웹페이지</b>로 구현하였습니다.<br>첫 반응형 웹페이지이지만 생각만큼 잘
-                    나온 페이지 입니다.<br>많은 <b style="background-color: skyblue;">스크립트</b>가 적용된 페이지 이므로 잘 짜여진 화면을 느낄 수 있습니다.
-                </h2>
-                <br>
-                <br>
-                <a href="https://lsw04521.github.io/interior/" class="btn btn-primary hvr-forward">SITE
-                    VIEW →</a>
-            </div>
-        </div>
-        <div class="port-two-area">
-            <div class="text-area-2">
-                <ul>
-                    <li>#HTML5</li>
-                    <li>#CSS3</li>
-                </ul>
-                <h1 style="font-size: 6rem;">GOMPYO <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
-                <br>
-                <h2>수료 과정 중 처음으로 팀원과 단합하여 구현한 <b style="background-color: skyblue;">팀 프로젝트</b> 웹 페이지입니다.
-                    <br>
-                    서브페이지로 연결되는 메인페이지인 만큼 조화롭게 어울릴 수 있는 정보들을 간략하게<br>구현한 웹 페이지입니다.
-                </h2>
-                <br>
-                <br>
-                <a href="https://hyoeunkim126.github.io/1team_project_gompyo/"
-                    class="btn btn-primary hvr-forward">SITE VIEW →</a>
-            </div>
-            <figure><a href="https://hyoeunkim126.github.io/1team_project_gompyo/"><img src="img/gompyo_mac.png" alt="img" style="width: 100%; padding-top: 150px;"></a></figure>
-        </div>
-        <div class="port-one-area">
-            <figure><a href="https://lsw04521.github.io/samyang/"><img src="img/samyang_mac.png" alt="img" style="width: 100%; padding-top: 150px;"></a></figure>
-            <div class="text-area">
-                <ul>
-                    <li>#HTML5</li>
-                    <li>#CSS3</li>
-                </ul>
-                <h1 style="font-size: 6rem;">SAMYANG <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
-                <br>
-                <h2>수료 과정 중 처음으로 만든 <b style="background-color: skyblue;">쇼핑몰</b> 웹 페이지입니다.
-                    <br>
-                    <b style="background-color: skyblue;">레이아웃</b>에 적절히 맞을 수 있도록 노력하여 구현하였습니다.
-                    <br>
-                    보는것에 어려움이 없도록 적절한 이미지를 사용하여 간단하게 구현하였습니다.
-                </h2>
-                <br>
-                <br>
-                <a href="https://lsw04521.github.io/samyang/" class="btn btn-primary hvr-forward">SITE
-                    VIEW →</a>
-            </div>
-        </div>
-        <div class="intro">
-            <h1>CONTACT</h1>
-        </div>
-        <div id="contact-area">
-            <h2>이성우
-                <br>
-                <i class="fas fa-mobile-alt"></i>&nbsp;010-3013-4400
-                <br>
-                <i class="far fa-envelope"></i>&nbsp;lsw04521@naver.com
-            </h2>
+                <div id="contact">
+                    <div class="c-left-introducing" data-aos="fade-right"
+                    data-aos-duration="2000">
+                        <div class="profile-box"></div>
+                        <br>
+                        <h1>PROFILE</h1>
+                        <br>
+                        <h3>이성우
+                            <br>
+                            경기도 안산시
+                            <br>
+                            lsw04521@naver.com
+                        </h3>
+                        <br>
+                        <h3>새로움을 추구하는 웹 퍼블리셔를 꿈꾸고 있습니다.<br>
+                            정확하고 세심하게 작업물을 제작할 수 있도록
+                            더욱 발전하기 위해 나날히 힘쓰며 노력하겠습니다.
+                        </h3>
+                    </div>
+                    <div class="c-right-introducing" data-aos="fade-left"
+                    data-aos-duration="2000">
+                        <h1>EDUCATION</h1>
+                        <br>
+                        <h3><b style="color: #999;">2021.09.27 ~ 2022.02.22</b> 라인컴퓨터아트학원 반응형UIUX 과정 수료</h3>
+                        <br>
+                        <br>
+                        <h1>LICENSE</h1>
+                        <br>
+                        <h3>웹디자인기능사 (진행중)</h3>
+                        <br>
+                        <br>
+                        <h1>SKILLS</h1>
+                        <br>
+                        <h3>HTML5<br>
+                            CSS3<br>
+                            JavaScript<br>
+                            J-Query<br>
+                            ajax</h3>
+                        <img src="img/Ps.png" alt="" class="btn btn-primary hvr-float-shadow">
+                        <img src="img/Ai.png" alt="" class="btn btn-primary hvr-float-shadow">
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <div class="intro" data-aos="fade-up">
+                    <h1>PORTFOLIO</h1>
+                </div>
+                <div class="port-two-area">
+                    <div class="text-area-2" data-aos="fade-right">
+                        <ul>
+                            <li>#HTML5</li>
+                            <li>#CSS3</li>
+                            <li>#ajax</li>
+                        </ul>
+                        <h1 style="font-size: 6rem;">YOUNG POONG <b style="color: #999; font-size: 3rem;">Book Store</b>
+                        </h1>
+                        <br>
+                        <h2><b style="background-color: skyblue;">ajax</b>를 이용하여 구현한 서점 웹 페이지입니다. 기존 페이지의 레이아웃과<br>새로 배운
+                            기능을
+                            적용하여 간략하게 필요한 정보를 가져와 서점 페이지에 대한 정보를<br>
+                            쉽게 볼 수 있도록 설계하였습니다.
+                        </h2>
+                        <br>
+                        <br>
+                        <a href="https://lsw04521.github.io/ypbooks/" class="btn btn-primary hvr-forward">SITE
+                            VIEW →</a>
+                    </div>
+                    <figure data-aos="fade-up"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"><a href="https://lsw04521.github.io/ypbooks/"><img src="img/ypbooks_mac.png" alt="img"
+                                style="width: 100%; padding-top: 150px;"></a></figure>
+                </div>
+                <div class="port-one-area">
+                    <figure data-aos="fade-up"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"><a href="https://lsw04521.github.io/imax/"><img src="img/imax_tablet_mac_iphone.png"
+                                alt="img" style="width: 100%;" class="hvr-bob"></a></figure>
+                    <div class="text-area" data-aos="fade-left">
+                        <ul>
+                            <li>#HTML5</li>
+                            <li>#CSS3</li>
+                            <li>#JavaScript</li>
+                            <li>#J-Query</li>
+                        </ul>
+                        <h1 style="font-size: 6rem;">IMAX <b style="color: #999; font-size: 3rem;">Corporation</b></h1>
+                        <br>
+                        <h2>아이맥스 웹 페이지입니다. 기존에 있던 페이지처럼 보이도록 구현하였으며,<br>
+                            <b style="background-color: skyblue;">반응형 웹페이지</b>로 나타내어 모든 디스플레이에서 기능이 원활히 작동할 수 있도록 기능화
+                            <br>하였습니다. 또한 돋보일 수 있는 세가지의 시그니처 컬러를 사용하여 더욱 시각화하였습니다.
+                        </h2>
+                        <br>
+                        <br>
+                        <a href="https://lsw04521.github.io/imax/" class="hvr-forward hvr-icon-forward">SITE VIEW →</a>
+                    </div>
+                </div>
+                <div class="port-two-area">
+                    <div class="text-area-2" data-aos="fade-right">
+                        <ul>
+                            <li>#HTML5</li>
+                            <li>#CSS3</li>
+                            <li>#JavaScript</li>
+                            <li>#J-Query</li>
+                        </ul>
+                        <h1 style="font-size: 6rem;">SIGNIEL SEOUL <b style="color: #999; font-size: 3rem;">Hotel</b>
+                        </h1>
+                        <br>
+                        <h2>시그니엘 호텔 웹 페이지입니다. 다양한 주제에서 떠올라 구현하게 되었습니다.
+                            <br>
+                            <b style="background-color: skyblue;">반응형 웹페이지</b>이므로 디스플레이 크기에 따라 보는 데에 불편함이 없도록 설계하였습니다.
+                            <br>이미지에 맞는 컬러를 사용하여 어울릴 수 있도록 노력하여 구현하였습니다.
+                        </h2>
+                        <br>
+                        <br>
+                        <a href="https://lsw04521.github.io/signiel/" class="btn btn-primary hvr-forward">SITE
+                            VIEW →</a>
+                    </div>
+                    <figure data-aos="fade-up"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"><a href="https://lsw04521.github.io/signiel/"><img src="img/signiel_tablet_mac_iphone.png"
+                                alt="img" style="width: 100%;" class="hvr-bob"></a></figure>
+                </div>
+                <div class="port-one-area">
+                    <figure data-aos="fade-up"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"><a href="https://lsw04521.github.io/interior/"><img src="img/interior_tablet_mac_iphone.png"
+                                alt="img" style="width: 100%;" class="hvr-bob"></a></figure>
+                    <div class="text-area" data-aos="fade-left">
+                        <ul>
+                            <li>#HTML5</li>
+                            <li>#CSS3</li>
+                            <li>#JavaScript</li>
+                            <li>#J-Query</li>
+                        </ul>
+                        <h1 style="font-size: 6rem;">BUCKETPLACE <b style="color: #999; font-size: 2.9rem;">Corporation</b></h1>
+                        <br>
+                        <h2>인테리어 웹 페이지입니다. <b style="background-color: skyblue;">반응형 웹페이지</b>로 구현하였습니다.<br>첫 반응형 웹페이지이지만
+                            생각만큼 잘
+                            나온 페이지 입니다.<br>많은 <b style="background-color: skyblue;">스크립트</b>가 적용된 페이지 이므로 잘 짜여진 화면을 느낄 수
+                            있습니다.
+                        </h2>
+                        <br>
+                        <br>
+                        <a href="https://lsw04521.github.io/interior/" class="btn btn-primary hvr-forward">SITE
+                            VIEW →</a>
+                    </div>
+                </div>
+                <div class="port-two-area">
+                    <div class="text-area-2">
+                        <ul>
+                            <li>#HTML5</li>
+                            <li>#CSS3</li>
+                        </ul>
+                        <h1 style="font-size: 6rem;">GOMPYO <b style="color: #999; font-size: 3rem;">Corporation</b>
+                        </h1>
+                        <br>
+                        <h2>수료 과정 중 처음으로 팀원과 단합하여 구현한 <b style="background-color: skyblue;">팀 프로젝트</b> 웹 페이지입니다.
+                            <br>
+                            서브페이지로 연결되는 메인페이지인 만큼 조화롭게 어울릴 수 있는 정보들을 간략하게<br>구현한 웹 페이지입니다.
+                        </h2>
+                        <br>
+                        <br>
+                        <a href="https://hyoeunkim126.github.io/1team_project_gompyo/"
+                            class="btn btn-primary hvr-forward">SITE VIEW →</a>
+                    </div>
+                    <figure data-aos="fade-up"><a href="https://hyoeunkim126.github.io/1team_project_gompyo/"><img src="img/gompyo_mac.png"
+                                alt="img" style="width: 100%; padding-top: 150px;" class="hvr-bob"></a></figure>
+                </div>
+                <div class="port-one-area">
+                    <figure data-aos="fade-up"
+                    data-aos-offset="600"
+                    data-aos-easing="ease-in-sine"><a href="https://lsw04521.github.io/samyang/"><img src="img/samyang_mac.png" alt="img"
+                                style="width: 100%; padding-top: 150px;" class="hvr-bob"></a></figure>
+                    <div class="text-area" data-aos="fade-left">
+                        <ul>
+                            <li>#HTML5</li>
+                            <li>#CSS3</li>
+                        </ul>
+                        <h1 style="font-size: 6rem;">SAMYANG <b style="color: #999; font-size: 3rem;">Corporation</b>
+                        </h1>
+                        <br>
+                        <h2>수료 과정 중 처음으로 만든 <b style="background-color: skyblue;">쇼핑몰</b> 웹 페이지입니다.
+                            <br>
+                            <b style="background-color: skyblue;">레이아웃</b>에 적절히 맞을 수 있도록 노력하여 구현하였습니다.
+                            <br>
+                            보는것에 어려움이 없도록 적절한 이미지를 사용하여 간단하게 구현하였습니다.
+                        </h2>
+                        <br>
+                        <br>
+                        <a href="https://lsw04521.github.io/samyang/" class="btn btn-primary hvr-forward">SITE
+                            VIEW →</a>
+                    </div>
+                </div>
+            </section>
+            <section id="contact1">
+                <div class="intro">
+                    <h1>CONTACT</h1>
+                </div>
+                <div id="contact-area" data-aos="fade-up">
+                    <h2>이성우
+                        <br>
+                        <i class="fas fa-mobile-alt"></i>&nbsp;010-3013-4400
+                        <br>
+                        <i class="far fa-envelope"></i>&nbsp;lsw04521@naver.com
+                    </h2>
+                </div>
+            </section>
         </div>
     </div>
 </body>
