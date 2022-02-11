@@ -7,6 +7,7 @@
 .c-left-introducing h3 {font-weight: normal;}
 .profile-box {float: left; width: 300px; height: 300px; border: 2px solid skyblue; border-radius: 50%;  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5); margin-bottom: 25px;}
 .c-right-introducing {width: 50%;}
+.c-right-introducing h3 {line-height: 1.75;}
 .c-right-introducing img {width: 75px; padding-top: 50px; margin: 0px 10px;}
 
 .port-one-area {cursor: default; margin-top: 150px; display: flex; justify-content: space-between;}
