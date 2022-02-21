@@ -1,0 +1,39 @@
+@media (max-width:767px){
+
+    #warp {width: 100%; height: auto; margin: 0 auto;}
+    
+    .intro {text-align: center; line-height: 2; padding-top: 300px; font-weight: normal; font-size: 40px;}
+    
+    #intro {text-align: center; line-height: 2; padding-top: 300px; font-weight: normal; font-size: 40px;}
+    
+    #contact {width: 90%; margin: 0 auto; margin-top: 200px; display: flex; flex-direction: column;}
+    .c-left-introducing {width: 100%; display: flex; flex-direction: column; line-height: 1.75;}
+    .c-left-introducing h3 {font-weight: normal;}
+    .profile-box {float: left; width: 300px; height: 300px; border: 2px solid skyblue; border-radius: 50%;  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5); margin-bottom: 25px;}
+    .c-right-introducing {width: 100%; margin-top: 50px;}
+    .c-right-introducing h3 {line-height: 1.75;}
+    .c-right-introducing img {width: 75px; padding-top: 50px; margin: 0px 10px;}
+    
+    #portfolio {width: 90%; margin: 0 auto;}
+    .port-one-area {cursor: default; margin-top: 150px; height: 750px; display: flex; flex-direction: column;}
+    .port-one-area h1 {font-size: 3.5rem;}
+    figure {width: 100%;}
+    .text-area {width: 100%; margin: 0 auto; line-height: 2; display: flex; flex-direction: column; padding-top: 100px;}
+    .text-area a {padding-left: 15px; padding-top: 10px; width: 16%; border: 1px solid #555; font-family: "GangwonEdu_OTFBoldA"; font-size: 25px; transition: .2s ease-in-out;}
+    .text-area a:hover {background: skyblue;}
+    
+    .text-area ul li {padding:3px; margin: 0px 5px; float: left; border: 1px solid #555; font-size: 13px; border-radius: 10px;}
+    .text-area ul li:hover {background: #555; color: #fff;}
+    
+    .port-two-area {cursor: default; margin-top: 150px; height: 750px; display: flex; flex-direction: column;}
+    .port-two-area h1 {font-size: 3.5rem;}
+    .text-area-2 {width: 100%; margin: 0 auto; line-height: 2; display: flex; flex-direction: column; padding-top: 100px;}
+    .text-area-2 a {padding-left: 15px; padding-top: 10px; width: 16%; border: 1px solid #555; font-family: "GangwonEdu_OTFBoldA"; font-size: 25px; transition: .2s ease-in-out;}
+    .text-area-2 a:hover {background: skyblue;}
+    
+    .text-area-2 ul li {padding:3px; margin: 0px 5px; float: left; border: 1px solid #555; font-size: 13px; border-radius: 10px;}
+    .text-area-2 ul li:hover {background: #555; color: #fff;}
+    
+    #contact-area {text-align: center; line-height: 3; margin-top: 100px; height: 450px;}
+    
+    }

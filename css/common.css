@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@media (max-width:767px){
+header {width: 100%; padding: 0px 10%; margin: 0 auto; padding-top: 25px; position: fixed; left: 0; right: 0; z-index: 10;}
+
+#logo {font-family: "GangwonEdu_OTFBoldA"; font-size: 40px; float: left;}
+
+#menu ul {display: none;}
+}
+
+@media (max-width:768px) and (min-width:1198px){
 header {width: 100%; padding: 0px 10%; margin: 0 auto; padding-top: 25px; position: fixed; left: 0; right: 0; z-index: 10;}
 
 #logo {font-family: "GangwonEdu_OTFBoldA"; font-size: 40px; float: left;}
@@ -8,3 +17,14 @@ header {width: 100%; padding: 0px 10%; margin: 0 auto; padding-top: 25px; positi
 #menu ul li {float: left; margin: 10px;}
 #menu ul li a {text-align: center; font-family: "GangwonEdu_OTFBoldA"; font-size: 25px;}
 #menu ul li a:hover {color: skyblue;}
+}
+@media (min-width:1199px){
+header {width: 100%; padding: 0px 10%; margin: 0 auto; padding-top: 25px; position: fixed; left: 0; right: 0; z-index: 10;}
+
+#logo {font-family: "GangwonEdu_OTFBoldA"; font-size: 40px; float: left;}
+
+#menu ul {float: right;}
+#menu ul li {float: left; margin: 10px;}
+#menu ul li a {text-align: center; font-family: "GangwonEdu_OTFBoldA"; font-size: 25px;}
+#menu ul li a:hover {color: skyblue;}
+}
